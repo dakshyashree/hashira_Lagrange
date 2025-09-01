@@ -9,5 +9,5 @@ add_executable(secret_finder src/main.cpp)
 # nlohmann/json include
 target_include_directories(secret_finder PRIVATE ${CMAKE_SOURCE_DIR}/include)
 
-# Boost headers (point to the folder that contains the "boost" folder)
+# Boost headers (point to folder that contains "boost/")
 target_include_directories(secret_finder PRIVATE "C:/Users/daksh/Downloads/boost_1_89_0")
